@@ -3,11 +3,11 @@
 <head>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>docX 2 HTML</title>
+	<title>docX to (very basic) HTML</title>
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@astronomyblog">
 	<meta name="twitter:url" property="og:url" content="https://slowe.github.io/docx2html/">
-	<meta name="twitter:title" property="og:title" content="docX 2 HTML">
+	<meta name="twitter:title" property="og:title" content="docX to (very basic) HTML">
 	<meta name="twitter:description" property="og:description" content="Some javascript to cut down a docx file to the bare basic semantic HTML">
 	<meta name="keywords" content="html,javascript,docx">
 	<link rel="stylesheet" href="resources/style.css">
@@ -440,9 +440,9 @@
 
 	<div id="content">
 
-		<h1>docX 2 HTML</h1>
-		
-		<p>Get an HTML version of a Word document. The docx file is processed in your browser (nothing is sent to a server). The end result will be <em>very</em> bare-bones HTML. It won't be perfect.</p>
+		<h1>docX to (very basic) HTML</h1>
+		<p><strong>Updated: 12 January 2018</strong></p>
+		<p>Get an HTML version of a Word document. The docx file is processed in your browser (nothing is sent to a server). The end result will be <em>very</em> bare-bones HTML and it won't have styling. The result won't be perfect. It doesn't support images at the moment and links are not correctly created. Those things will be worked on.</p>
 	
 		<div id="drop_zone" class="dropzone block">
 			<div class="helpertext">
@@ -451,13 +451,13 @@
 			</div>
 		</div>
 
-		<h2>Input</h2>
+		<h2>Document XML</h2>
 		<textarea id="input"></textarea>
 
-		<h2>Output</h2>
+		<h2>HTML output</h2>
 		<textarea id="output"></textarea>
 		
-		<h2>Rendered HTML</h2>
+		<h2>Rendered HTML output</h2>
 		<section id="html"></section>
 
 	</div>
