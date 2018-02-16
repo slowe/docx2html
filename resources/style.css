@@ -120,6 +120,7 @@ h2 { margin-top:2em; }
 #html table td, #html table th { border: 1px solid black; padding: 0.25em 0.5em; }
 #html a { color: #396bad; }
 #html { margin: 0 0 2em 0; border: 1px dotted black; padding: 2em; }
+#html figure, #html img { max-width: 100%; }
 em { font-style: italic; font-weight: 600; }
 
 @media only screen and (max-width: 900px) {
